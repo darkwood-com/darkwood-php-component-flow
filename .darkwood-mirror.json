@@ -1,7 +1,7 @@
 {
   "canonical_repository": "darkwood-com/darkwood",
   "canonical_path": "library/darkwood-php/src/Darkwood/Component/Flow",
-  "canonical_revision": "d59173c4ebaabc6598726eacd854f7582af72d3d",
+  "canonical_revision": "bc70daa24d2f931337e477eecfd8b2d824c310d1",
   "destination_repository": "darkwood-com/darkwood-php-component-flow",
   "destination_branch": "9.0"
 }
