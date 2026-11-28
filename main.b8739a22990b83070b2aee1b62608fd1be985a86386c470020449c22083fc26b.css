@@ -12408,11 +12408,12 @@ body.data-sepia-mode .email-form .comment-form textarea:focus,
   padding: 0.25rem 0.5rem; }
 
 .navbar .btn-link {
-  color: #1d2d35;
   padding: 0.4375rem 0; }
 
+.navbar .btn-link:not(.dw-theme-toggle) {
+  color: #1d2d35; }
+
 #mode {
-  color: var(--dw-text);
   padding-right: 0.25rem;
   padding-left: 0.25rem;
   margin-right: -0.25rem; }
