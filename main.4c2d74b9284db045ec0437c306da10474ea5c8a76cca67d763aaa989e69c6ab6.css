@@ -11492,7 +11492,6 @@ body.data-dark-mode .dropdown-menu {
   @extend .dropdown-menu-dark;
 }
 */
-body.data-dark-mode .navbar,
 body.data-dark-mode .doks-subnavbar {
   background-color: #091a28;
   border-bottom: 1px solid #343a40; }
@@ -11518,28 +11517,28 @@ body.data-dark-mode .offcanvas .nav-link.active, body.data-dark-mode .offcanvas 
 body.data-dark-mode .navbar-light .navbar-brand {
   color: #dee2e6 !important; }
 
-body.data-dark-mode .navbar-light .navbar-nav .nav-link, body.data-dark-mode .navbar-light .navbar-nav .banner .nav a, .banner .nav body.data-dark-mode .navbar-light .navbar-nav a {
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link, body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a, .banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav a {
   color: #dee2e6; }
 
-body.data-dark-mode .navbar-light .navbar-nav .nav-link:hover, body.data-dark-mode .navbar-light .navbar-nav .banner .nav a:hover, .banner .nav body.data-dark-mode .navbar-light .navbar-nav a:hover,
-body.data-dark-mode .navbar-light .navbar-nav .nav-link:focus,
-body.data-dark-mode .navbar-light .navbar-nav .banner .nav a:focus,
-.banner .nav body.data-dark-mode .navbar-light .navbar-nav a:focus {
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link:hover, body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a:hover, .banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav a:hover,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link:focus,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a:focus,
+.banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav a:focus {
   color: #8ed6fb; }
 
-body.data-dark-mode .navbar-light .navbar-nav .nav-link.disabled, body.data-dark-mode .navbar-light .navbar-nav .banner .nav a.disabled, .banner .nav body.data-dark-mode .navbar-light .navbar-nav a.disabled {
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link.disabled, body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a.disabled, .banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav a.disabled {
   color: rgba(255, 255, 255, 0.25); }
 
-body.data-dark-mode .navbar-light .navbar-nav .show > .nav-link, body.data-dark-mode .navbar-light .navbar-nav .banner .nav .show > a, .banner .nav body.data-dark-mode .navbar-light .navbar-nav .show > a,
-body.data-dark-mode .navbar-light .navbar-nav .active > .nav-link,
-body.data-dark-mode .navbar-light .navbar-nav .banner .nav .active > a,
-.banner .nav body.data-dark-mode .navbar-light .navbar-nav .active > a,
-body.data-dark-mode .navbar-light .navbar-nav .nav-link.show,
-body.data-dark-mode .navbar-light .navbar-nav .banner .nav a.show,
-.banner .nav body.data-dark-mode .navbar-light .navbar-nav a.show,
-body.data-dark-mode .navbar-light .navbar-nav .nav-link.active,
-body.data-dark-mode .navbar-light .navbar-nav .banner .nav a.active,
-.banner .nav body.data-dark-mode .navbar-light .navbar-nav a.active {
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .show > .nav-link, body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav .show > a, .banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .show > a,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .active > .nav-link,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav .active > a,
+.banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .active > a,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link.show,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a.show,
+.banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav a.show,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link.active,
+body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a.active,
+.banner .nav body.data-dark-mode .navbar-light:not(.dw-navbar) .navbar-nav a.active {
   color: #8ed6fb; }
 
 body.data-dark-mode .navbar-light .navbar-text {
@@ -11953,7 +11952,6 @@ body.data-sepia-mode .dropdown-menu {
   @extend .dropdown-menu-sepia;
 }
 */
-body.data-sepia-mode .navbar,
 body.data-sepia-mode .doks-subnavbar {
   background-color: #f1e7d0;
   border-bottom: 1px solid #ded0bf; }
@@ -11979,28 +11977,28 @@ body.data-sepia-mode .offcanvas .nav-link.active, body.data-sepia-mode .offcanva
 body.data-sepia-mode .navbar-light .navbar-brand {
   color: #876944 !important; }
 
-body.data-sepia-mode .navbar-light .navbar-nav .nav-link, body.data-sepia-mode .navbar-light .navbar-nav .banner .nav a, .banner .nav body.data-sepia-mode .navbar-light .navbar-nav a {
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link, body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a, .banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav a {
   color: #876944; }
 
-body.data-sepia-mode .navbar-light .navbar-nav .nav-link:hover, body.data-sepia-mode .navbar-light .navbar-nav .banner .nav a:hover, .banner .nav body.data-sepia-mode .navbar-light .navbar-nav a:hover,
-body.data-sepia-mode .navbar-light .navbar-nav .nav-link:focus,
-body.data-sepia-mode .navbar-light .navbar-nav .banner .nav a:focus,
-.banner .nav body.data-sepia-mode .navbar-light .navbar-nav a:focus {
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link:hover, body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a:hover, .banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav a:hover,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link:focus,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a:focus,
+.banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav a:focus {
   color: #06c; }
 
-body.data-sepia-mode .navbar-light .navbar-nav .nav-link.disabled, body.data-sepia-mode .navbar-light .navbar-nav .banner .nav a.disabled, .banner .nav body.data-sepia-mode .navbar-light .navbar-nav a.disabled {
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link.disabled, body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a.disabled, .banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav a.disabled {
   color: #06c; }
 
-body.data-sepia-mode .navbar-light .navbar-nav .show > .nav-link, body.data-sepia-mode .navbar-light .navbar-nav .banner .nav .show > a, .banner .nav body.data-sepia-mode .navbar-light .navbar-nav .show > a,
-body.data-sepia-mode .navbar-light .navbar-nav .active > .nav-link,
-body.data-sepia-mode .navbar-light .navbar-nav .banner .nav .active > a,
-.banner .nav body.data-sepia-mode .navbar-light .navbar-nav .active > a,
-body.data-sepia-mode .navbar-light .navbar-nav .nav-link.show,
-body.data-sepia-mode .navbar-light .navbar-nav .banner .nav a.show,
-.banner .nav body.data-sepia-mode .navbar-light .navbar-nav a.show,
-body.data-sepia-mode .navbar-light .navbar-nav .nav-link.active,
-body.data-sepia-mode .navbar-light .navbar-nav .banner .nav a.active,
-.banner .nav body.data-sepia-mode .navbar-light .navbar-nav a.active {
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .show > .nav-link, body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav .show > a, .banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .show > a,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .active > .nav-link,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav .active > a,
+.banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .active > a,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link.show,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a.show,
+.banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav a.show,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .nav-link.active,
+body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav .banner .nav a.active,
+.banner .nav body.data-sepia-mode .navbar-light:not(.dw-navbar) .navbar-nav a.active {
   color: #06c; }
 
 body.data-sepia-mode .navbar-light .navbar-text {
@@ -12861,7 +12859,6 @@ table {
 */
 .navbar {
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #e9ecef;
   /*
   margin-top: 4px;
@@ -12915,7 +12912,6 @@ button#doks-versions {
   color: #1d2d35; }
 
 .doks-subnavbar {
-  background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #e9ecef; }
 
 .doks-subnavbar .nav-link, .doks-subnavbar .banner .nav a, .banner .nav .doks-subnavbar a {
@@ -12935,7 +12931,6 @@ button#doks-versions {
 
 /*
 .navbar {
-  background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid $gray-200;
   margin-top: 4px;
 }
@@ -13378,7 +13373,7 @@ body, body.data-dark-mode, body.data-sepia-mode {
   background: var(--dw-background);
   font-family: var(--dw-font-sans); }
 
-body a:not(.btn), body.data-dark-mode a:not(.btn), body.data-sepia-mode a:not(.btn) {
+body a:not(.btn, .comment-form input[type="submit"], .search-form .search-submit, .dw-navbar a), body.data-dark-mode a:not(.btn, .comment-form input[type="submit"], .search-form .search-submit, .dw-navbar a), body.data-sepia-mode a:not(.btn, .comment-form input[type="submit"], .search-form .search-submit, .dw-navbar a) {
   color: var(--dw-primary-hover); }
 
 code, pre {
