@@ -11612,7 +11612,7 @@ body.data-dark-mode .navbar-light .navbar-text a:hover,
 body.data-dark-mode .navbar-light .navbar-text a:focus {
   color: #8ed6fb; }
 
-body.data-dark-mode .navbar .btn-link {
+body.data-dark-mode .navbar .btn-link:not(.dw-theme-toggle) {
   color: #dee2e6; }
 
 body.data-dark-mode .content .btn-link {
@@ -11621,10 +11621,10 @@ body.data-dark-mode .content .btn-link {
 body.data-dark-mode .content .btn-link:hover {
   color: #8ed6fb; }
 
-body.data-dark-mode .navbar .btn-link:hover {
+body.data-dark-mode .navbar .btn-link:not(.dw-theme-toggle):hover {
   color: #8ed6fb; }
 
-body.data-dark-mode .navbar .btn-link:active {
+body.data-dark-mode .navbar .btn-link:not(.dw-theme-toggle):active {
   color: #8ed6fb; }
 
 body.data-dark-mode .form-control.is-search, body.data-dark-mode .search-form .is-search.search-field, .search-form body.data-dark-mode .is-search.search-field, body.data-dark-mode .comment-form input.is-search[type="text"], .comment-form body.data-dark-mode input.is-search[type="text"],
@@ -12072,7 +12072,7 @@ body.data-sepia-mode .navbar-light .navbar-text a:hover,
 body.data-sepia-mode .navbar-light .navbar-text a:focus {
   color: #06c; }
 
-body.data-sepia-mode .navbar .btn-link {
+body.data-sepia-mode .navbar .btn-link:not(.dw-theme-toggle) {
   color: #876944; }
 
 body.data-sepia-mode .content .btn-link {
@@ -12081,10 +12081,10 @@ body.data-sepia-mode .content .btn-link {
 body.data-sepia-mode .content .btn-link:hover {
   color: #06c; }
 
-body.data-sepia-mode .navbar .btn-link:hover {
+body.data-sepia-mode .navbar .btn-link:not(.dw-theme-toggle):hover {
   color: #06c; }
 
-body.data-sepia-mode .navbar .btn-link:active {
+body.data-sepia-mode .navbar .btn-link:not(.dw-theme-toggle):active {
   color: #06c; }
 
 body.data-sepia-mode .form-control.is-search, body.data-sepia-mode .search-form .is-search.search-field, .search-form body.data-sepia-mode .is-search.search-field, body.data-sepia-mode .comment-form input.is-search[type="text"], .comment-form body.data-sepia-mode input.is-search[type="text"],
@@ -12412,11 +12412,12 @@ body.data-sepia-mode .email-form .comment-form textarea:focus,
   padding: 0.4375rem 0; }
 
 #mode {
+  color: var(--dw-text);
   padding-right: 0.25rem;
   padding-left: 0.25rem;
   margin-right: -0.25rem; }
 
-.btn-link:focus {
+.btn-link:not(.dw-theme-toggle):focus {
   outline: 0;
   box-shadow: none; }
 
@@ -12430,10 +12431,10 @@ body.data-sepia-mode .email-form .comment-form textarea:focus,
   .navbar .btn-link {
     padding: 0.5625em 0.25rem 0.5rem 0.125rem; } }
 
-.navbar .btn-link:hover {
+.navbar .btn-link:not(.dw-theme-toggle):hover {
   color: #007bff; }
 
-.navbar .btn-link:active {
+.navbar .btn-link:not(.dw-theme-toggle):active {
   color: #007bff; }
 
 body .toggle-dark {
